@@ -11,6 +11,7 @@ import { Maths } from './components/Maths'
 import { English } from './components/English'
 import { Physics } from './components/Physics'
 import { Read } from './components/Read'
+import { Redirect } from 'react-router-dom'
 
 function App() {
   return (
