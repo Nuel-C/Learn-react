@@ -32,6 +32,7 @@ function App() {
           <Route path = '/english' component = {English} />
           <Route path = '/physics' component = {Physics} />
           <Route path = '/read' component = {Read} />
+          <Route render={() => <Redirect to={{pathname: "/"}} />} />
       </Router> 
     </UserProvider> 
   );
