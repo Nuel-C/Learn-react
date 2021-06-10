@@ -15,7 +15,7 @@ export const Home = () => {
                         <h1 style={{fontSize:'5rem'}}><span style={{color:'Red'}}>Learn</span> Without</h1>
                         <h1 style={{fontSize:'5rem'}}>Limits</h1>
                         <p>Build skills with courses from world-class universities and companies.</p>
-                        <Link className='nav-link' to='/signup'><button className='btn btn-lg' style={{borderRadius:'30px'}}>Signup</button></Link>
+                        <Link className='nav-link' to='/signup'><button className='btn btn-lg' style={{borderRadius:'30px', backgroundColor:'white'}}>Signup</button></Link>
 
                     </div>
                 </div>

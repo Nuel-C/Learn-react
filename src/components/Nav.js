@@ -51,7 +51,7 @@ export const Nav = () => {
                 </li>
     
                 <li className="nav-item">
-                    <span className='nav-link' style={{alignItems:'center',textAlign:'center'}}><button onClick={logout} className='btn btn-sm' style={{borderRadius:'30px', display: user.isLoggedin ? null : 'none', color:'black'}}>Log Out</button></span>
+                    <span className='nav-link' style={{alignItems:'center',textAlign:'center'}}><button onClick={logout} className='btn btn-sm' style={{borderRadius:'30px', display: user.isLoggedin ? null : 'none', color:'black',  backgroundColor:'white'}}>Log Out</button></span>
                 </li>
             </ul>
 

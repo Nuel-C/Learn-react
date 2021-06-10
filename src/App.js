@@ -3,7 +3,7 @@ import { Nav } from './components/Nav'
 import { Dashboard } from './components/Dashboard'
 import { Login } from './components/Login'
 import { Signup } from './components/Signup'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom'
 import { Home } from './components/Home'
 import { UserProvider } from './Context'
 import { Computer } from './components/Computer'
@@ -11,7 +11,7 @@ import { Maths } from './components/Maths'
 import { English } from './components/English'
 import { Physics } from './components/Physics'
 import { Read } from './components/Read'
-import { Redirect } from 'react-router-dom'
+
 
 function App() {
   return (

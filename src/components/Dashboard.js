@@ -27,7 +27,7 @@ export const Dashboard = () => {
                         <div className='col-sm-6' style={{paddingTop:'5%'}}>
                             <h1 style={{fontSize:'5rem'}}><span style={{color:'Red'}}>Computer</span> Science</h1>
                             <p>Learn about the world of computers.</p>
-                            <Link className='nav-link' to='/computer'><button className='btn btn-lg' style={{borderRadius:'30px'}}>Learn</button></Link>
+                            <Link className='nav-link' to='/computer'><button className='btn btn-lg' style={{borderRadius:'30px',  backgroundColor:'white'}}>Learn</button></Link>
                         </div>
 
                         <div className='col-sm-6' style={{textAlign:'center', alignItems:'center', marginTop:'10%'}}>
@@ -37,7 +37,7 @@ export const Dashboard = () => {
                         <div className='col-sm-6' style={{paddingTop:'10%'}}>
                             <h1 style={{fontSize:'5rem'}}><span style={{color:'Red'}}>English</span> Language</h1>
                             <p>Learn the English Language.</p>
-                            <Link className='nav-link' to='/english'><button className='btn btn-lg' style={{borderRadius:'30px'}}>Learn</button></Link>
+                            <Link className='nav-link' to='/english'><button className='btn btn-lg' style={{borderRadius:'30px', backgroundColor:'white'}}>Learn</button></Link>
                         </div>
 
                         <div className='col-sm-6' style={{textAlign:'center', alignItems:'center', marginTop:'10%'}}>
@@ -47,7 +47,7 @@ export const Dashboard = () => {
                         <div className='col-sm-6' style={{paddingTop:'10%'}}>
                             <h1 style={{fontSize:'5rem'}}><span style={{color:'Red'}}>Maths</span></h1>
                             <p>Learn Mathematics.</p>
-                            <Link className='nav-link' to='/maths'><button className='btn btn-lg' style={{borderRadius:'30px'}}>Learn</button></Link>
+                            <Link className='nav-link' to='/maths'><button className='btn btn-lg' style={{borderRadius:'30px', backgroundColor:'white'}}>Learn</button></Link>
                         </div>
 
                         <div className='col-sm-6' style={{textAlign:'center', alignItems:'center', marginTop:'10%', marginBottom:'5%'}}>
@@ -57,7 +57,7 @@ export const Dashboard = () => {
                         <div className='col-sm-6' style={{paddingTop:'10%', marginBottom:'5%'}}>
                             <h1 style={{fontSize:'5rem'}}><span style={{color:'Red'}}>Physics</span></h1>
                             <p>Learn physics.</p>
-                            <Link className='nav-link' to='/physics'><button className='btn btn-lg' style={{borderRadius:'30px'}}>Learn</button></Link>
+                            <Link className='nav-link' to='/physics'><button className='btn btn-lg' style={{borderRadius:'30px', backgroundColor:'white'}}>Learn</button></Link>
                         </div>
                 </div>
             </div>
